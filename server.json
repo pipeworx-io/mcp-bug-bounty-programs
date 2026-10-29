@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/bug-bounty-programs",
   "title": "Bug Bounty Programs",
   "description": "bug-bounty-programs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/bug-bounty-programs",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-bug-bounty-programs",

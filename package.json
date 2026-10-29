@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-bug-bounty-programs",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "bug-bounty-programs",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-bug-bounty-programs": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "bug-bounty-programs"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-bug-bounty-programs.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/bug-bounty-programs",
   "pipeworx": {
-    "sourceHash": "v1-0ab02619ec74e70cffcc426728220226d8020658b70ef676ed8ac24583d23296",
-    "sourceCommit": "70a4e816a9195016cd4af92dca2019485d4c3865"
+    "mode": "gateway",
+    "slug": "bug-bounty-programs",
+    "gatewaySlug": "bug-bounty-programs",
+    "sourceHash": "v1-c11c19b03654b4e2672a62e9394a4c15baddcd6ff8111eb79f0d1d418372b4b0",
+    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
   }
 }
