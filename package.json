@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-bug-bounty-programs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "bug-bounty-programs",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "bug-bounty-programs",
     "gatewaySlug": "bug-bounty-programs",
-    "sourceHash": "v1-c11c19b03654b4e2672a62e9394a4c15baddcd6ff8111eb79f0d1d418372b4b0",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-56ae0aac45921d50975ade10bde80a6bc32e2ffe23bb9882b44c28e6da7c2ea0",
+    "sourceCommit": "547a3983b42dacf4389ca474860b0a1dee8e6053"
   }
 }
